@@ -1,15 +1,10 @@
 " ----- Visual -----
 
-" show line numbers
-set number
-
-" set relative number
-set relativenumber
-
 " no line wrapping
 set nowrap
 
 colorscheme desert
+syntax on
 
 
 " ----- Tabbing -----
@@ -48,9 +43,6 @@ set cursorline
 set splitbelow
 set splitright
 
-" use jj as escape character
+" remap keys
 inoremap jj <Esc>
 
-" Add nerdtree and have cursor start in other window
-autocmd VimEnter * NERDTree
-autocmd VimEnter * wincmd p
