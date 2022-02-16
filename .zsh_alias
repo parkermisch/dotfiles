@@ -1,0 +1,18 @@
+export DEVDSK="dev-dsk-parkour-2c-7769438f.us-west-2.amazon.com"
+
+# misc
+alias ..='cs ..'; alias ...='cs ../../'; alias ....='cs ../../../'; alias .....='cs ../../../../'; alias ......='cs ../../../../../';
+function cs () {
+    cd "$@" && ls
+}
+
+# git
+alias ga="git add"
+alias gs="git status"
+alias gch="git checkout"
+alias gcm="git commit"
+alias gd="git diff"
+alias gb="git branch"
+alias gd5="git dag -5"
+alias gpre="git pull --rebase"
+alias gl2="git log -2"
