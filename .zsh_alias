@@ -5,6 +5,7 @@ alias ..='cs ..'; alias ...='cs ../../'; alias ....='cs ../../../'; alias .....=
 function cs () {
     cd "$@" && ls
 }
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 # git
 alias ga="git add"
